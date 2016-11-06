@@ -1,0 +1,142 @@
+@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
+
+
+*{margin:0; padding:0}
+body{font-family: 'Amiri', serif;
+ font-size:14px; line-height:13px; background:url("images/site_bg.png") top center no-repeat fixed #000}
+ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+ 	font-family: 'Amiri', serif;
+ }
+a{color:#000; text-decoration:none}
+a:hover, a:active, a:focus{text-decoration:none; color:#000}
+input[type=text], input[type=password], textarea{border:1px solid #ddd; }
+input[type=submit]
+h1, h2, h4, h5, h6{font-weight:normal; margin:0 0 15px}
+h3{color:#202021; font-size:12px; font-weight:bold; margin-bottom:2px; line-height:13px}
+h2{font-size:25px; line-height:30px}
+img{max-width:100%; height:auto}
+.alignleft{float:left; margin-left:0px}
+.aligncenter{display:block; margin:10px auto}
+.alignright{float:right; margin-left:10px}
+.floatleft{float:right;}
+.floatright{float:left;}
+.center{width:980px; display:block; margin:0 auto; padding:20px; background:#fff; transition:all 1.3s ease 0s; -moz-transition:all 1.3s ease 0s; -webkit-transition:all 1.3s ease 0s; -o-transition:all 1.3s ease 0s; -ms-transition:all 1.3s ease 0s}
+div{overflow:hidden}
+.side-right .slider-caption h2{padding-top: 90px; padding-bottom: 80px; background: rgba(234, 156, 33, 0.54); color: #fff}
+.side-left .slider-caption h2{padding-top: 90px; padding-bottom: 80px; background: rgba(1, 166, 222, 0.54); color: #fff}
+.side-right .slider-caption-2 {padding-top: 50px; padding-bottom: 80px; background: rgba(234, 156, 33, 0.54); color: #fff;padding-left: 100px;font-size: 20px;}
+.side-left .slider-caption-2 {padding-top: 50px; padding-bottom: 80px; background: rgba(1, 166, 222, 0.54); color: #fff; padding-left: 100px;font-size: 20px;}
+.slider-caption{text-align: center; margin-top: 100px;}
+.slider{height:350px; overflow:visible}
+.bxslider, .bx-viewport, .bx-controls, .bx-pager, .bx-controls-direction{overflow:visible}
+#selectnav1{display:none}
+#selectnav2{display:none}
+#nav{display:block}
+#f_menu{display:block}
+.body_wrapper{background:url("images/body_bg.png") repeat; margin-top:30px; margin-bottom:30px}
+.header_area{}
+.logo{margin-top:20px}
+.top_menu{margin-left:60px; margin-top:60px; width:330px;}
+.top_menu ul{list-style:none outside none; margin:0; padding:0}
+.top_menu ul li{float:left; border-right:2px solid #000;direction: rtl;}
+.top_menu ul li:last-child{border-right:none}
+.top_menu ul li a{color:#ea9c21;  font-size:15px; padding:0 11px; line-height:12px}
+.top_menu ul li a:hover{text-decoration:underline}
+.social_plus_search{margin-bottom:20px}
+.social{width:250px; margin:20px 0px 10px 0px}
+.social ul{list-style:none outside none; margin:0; padding:0}
+.social ul li{float:left; margin-right:7px}
+.social ul li a{display:block; padding:12px 13px}
+.twitter{background:url("images/social_icons.png") no-repeat scroll 0 0 rgba(0,0,0,0)}
+.facebook{background:url("images/social_icons.png") no-repeat scroll -37px 0px rgba(0,0,0,0)}
+.feed{background:url("images/social_icons.png") no-repeat scroll -73px 0px rgba(0,0,0,0)}
+.search{}
+.search #search_form{direction: rtl;}
+.search #s{width:87%}
+.search #searchform{background:url("images/search.png") no-repeat scroll 0 0 rgba(0,0,0,0); border:medium none; height:28px; margin-right:-17px; text-indent:-99999px; width:13%}
+.main_menu_area{overflow:visible; border-top:2px solid #eee; min-height:50px}
+.main_menu_area ul{margin:0; padding:0; list-style:none}
+.main_menu_area ul li{float:right; position:relative}
+.main_menu_area ul li a{color:#23b2e2; display:block; font-family: 'Amiri', serif; font-size:25px; font-weight: bold; padding:18px 400px}
+
+#nav li ul{transition:all 0.3s ease 0s; -moz-transition:all 0.3s ease 0s; -webkit-transition:all 0.3s ease 0s; -o-transition:all 0.3s ease 0s; -ms-transition:all 0.3s ease 0s}
+/* dropdown css level one*/
+.main_menu_area ul li ul{background:none repeat scroll 0 0 #0D0E0F; top:100px; position:absolute; width:215px; z-index:99999; right:-99999px}
+.main_menu_area ul li ul li{float:none; position:relative}
+.main_menu_area ul >li:hover >ul{left:0px; top:49px}
+.main_menu_area ul li ul li a{font-family: 'Amiri', serif; font-weight:bold}
+.main_menu_area ul li ul li a:hover{}
+/* dropdown css level two*/
+.main_menu_area ul li ul li ul{background:none repeat scroll 0 0 #0D0E0F; right:215px; position:absolute; width:215px; z-index:99999; right:-99999px}
+.main_menu_area ul li ul li ul li{float:none}
+.main_menu_area ul li ul li:hover ul{left:215px !important; top:0px}
+.main_menu_area ul li ul li ul li a{font-family: 'Amiri', serif; font-weight:bold}
+.slider_area, .slider{display:block; position:relative; width:100%; margin:0; padding:0;}
+.slider_area .slider .bxslider li{padding-top: 50px; border-bottom: 3px solid #ec9f25; padding-bottom: 70px; background:url(../../images/1.jpg) no-repeat center center fixed; width: 100%; height: 350px;-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;}
+.slider *{margin:0; padding:0;}
+.slider img{max-width:100%;}
+.slider1{width:670px}
+.slider2{width:250px}
+.content_area{margin-top:25px}
+.main_content{width:670px}
+.left_coloum{width:450px}
+.single_left_coloum_wrapper{position:relative; margin-left:-10px; margin-bottom:30px}
+.single_left_coloum_wrapper .title{margin-left:10px;direction: rtl;}
+.title{border-bottom:4px solid #ea9c21; font-family: 'Amiri', serif; font-size:20px; word-spacing:2px; direction: rtl;}
+.more{background:  #ea9c21; color:#FFF; display:block; font-size:10px; font-weight:bold; padding:4px 20px; position:absolute;  text-transform:uppercase; top:10px}
+.popular_more{background: #01a6de; color:#FFF; display:block; font-size:10px; font-weight:bold; padding:7px 20px; text-transform:uppercase; width:74px; margin-top:10px}
+.single_left_coloum{margin-left:10px; width:143px}
+.readmore, .single_cat_right_content_meta span{color:#d05311; font-size:10px; text-transform:uppercase; font-weight:bold; margin-right:20px}
+.readmore:hover, .single_cat_right_content_meta span:hover{color:#d05311; text-decoration:underline}
+.gallery{}
+.gallery img{margin-bottom:10px; margin-left:10px; width:141px}
+.single_cat_left{}
+.single_cat_left_content{border-bottom:1px dotted #000; margin-left:10px; width:220px; direction: rtl;}
+.single_cat_left_content h3{font-size:15px}
+.single_cat_left_content_meta{font-size:11px}
+.single_cat_left_content_meta span{color:#cf0000}
+.right_coloum{width:190px}
+.single_right_coloum{margin-bottom:20px}
+.single_right_coloum ul{margin:0; padding:0; list-style:none}
+.single_right_coloum ul li{border-bottom:1px dotted #ddd}
+.single_right_coloum ul li:last-child{border-bottom:none}
+.single_cat_right_content{padding-bottom:10px}
+.single_cat_right_content h3{margin-top:10px ;color: #cf0000}
+.single_right_coloum{direction: rtl;}
+.single_cat_right_content_meta{}
+.editorial{}
+.editorial h3{color:#CF0000}
+.sidebar{width:250px}
+.single_sidebar{margin-bottom:20px}
+.news-letter{padding:10px; background:#E4E4E4; direction: rtl;}
+.news-letter h2{font-family: 'Amiri', serif; font-size:20px; margin-bottom:5px; word-spacing:2px}
+.news-letter p{}
+.news-letter form input#name{border:1px solid #999; margin-bottom:10px; width:100%}
+.news-letter form input#email{border:1px solid #999; margin-bottom:10px; width:100%}
+.news-letter form input#form-submit{background:none repeat scroll 0 0 #CF0000; border:medium none; color:#FFF; font-weight:bold; padding:8px 20px; font-size:13px}
+.news-letter-privacy{color:#cf0000; margin-top:10px}
+.popular{direction: rtl;}
+.popular ul{margin:0; padding:0; list-style:none}
+.popular ul li{border-bottom:1px dotted #000; padding-bottom:10px; margin-bottom:10px;direction: rtl;}
+.popular ul li:last-child{border-bottom:none}
+.single_popular{}
+.single_popular p{margin-bottom:0}
+.single_popular h3{line-height:17px; margin-top:0}
+.footer_top_area{border-bottom:1px dotted #000; border-top:1px dotted #000; padding:20px 0; width:940px}
+.inner_footer_top{width:730px; margin:0 auto}
+.footer_bottom_area{margin-top:15px}
+.footer_menu{margin-bottom:20px}
+.footer_menu ul{margin:0; padding:0; list-style:none}
+.footer_menu ul li{border-right:1px solid #000; display:inline}
+.footer_menu ul li:last-child{border-right:none}
+.footer_menu ul li a{display:inline-block; padding:0 22px}
+.footer_menu ul li a:hover{}
+.copyright_text{line-height:17px; text-align:center}
+/*------------Media----------------------*/
+@media (min-width: 300px) and (max-width: 992px){
+.side-right .slider-caption h2 {padding-top: 40px; padding-bottom: 40px;  margin-bottom: 10px;}
+.side-left .slider-caption h2 {padding-top: 40px; padding-bottom: 40px; margin-bottom: 10px;}
+}
